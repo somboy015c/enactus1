@@ -509,7 +509,7 @@ h3{font-size:1.3125rem;line-height:1.25;letter-spacing:-.012em;font-weight:700}
 .video-thumb-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(13,21,32,.3);color:#fff;font-size:11px}
 .video-thumb-title{font-size:.75rem;margin-top:6px;color:var(--muted-dark)}
 @media (max-width:900px){
-  .story-band{grid-template-columns:1fr}
+  .story-band{grid-template-columns:minmax(0,1fr)}
   .story-media{min-height:280px}
 }
 
