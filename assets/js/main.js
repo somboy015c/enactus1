@@ -52,7 +52,7 @@
       menu.querySelectorAll('.has-dropdown').forEach(function (item) {
         var link = item.querySelector(':scope > a');
         link.addEventListener('click', function (e) {
-          if (window.innerWidth > 900) return;
+          if (window.innerWidth > 960) return;
           e.preventDefault();
           item.classList.toggle('is-open');
         });
